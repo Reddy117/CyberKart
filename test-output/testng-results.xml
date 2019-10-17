@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="105461" started-at="2019-09-29T04:43:43Z" finished-at="2019-09-29T04:45:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="105461" started-at="2019-09-29T04:43:43Z" finished-at="2019-09-29T04:45:28Z">
+      <class name="com.demokart.tests.LoginPageTest">
+        <test-method status="FAIL" signature="openApp()[pri:0, instance:com.demokart.tests.LoginPageTest@bf9759]" name="openApp" is-config="true" duration-ms="0" started-at="2019-09-29T05:43:43Z" finished-at="2019-09-29T05:43:43Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'ADMIN', ip: '192.168.0.115', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x001A1B23+1448739]
+	Ordinal0 [0x00125A11+940561]
+	Ordinal0 [0x000B2293+467603]
+	Ordinal0 [0x0004F27E+62078]
+	Ordinal0 [0x0004BBBD+48061]
+	Ordinal0 [0x00068D19+167193]
+	Ordinal0 [0x000688ED+166125]
+	Ordinal0 [0x00066FFB+159739]
+	Ordinal0 [0x000509F6+68086]
+	Ordinal0 [0x00051990+72080]
+	Ordinal0 [0x00051929+71977]
+	GetHandleVerifier [0x002E2E4C+1172140]
+	GetHandleVerifier [0x0023FE35+504469]
+	GetHandleVerifier [0x0023FBD0+503856]
+	Ordinal0 [0x001AC9A8+1493416]
+	GetHandleVerifier [0x0024060A+506474]
+	Ordinal0 [0x00137136+1012022]
+	Ordinal0 [0x00136FAF+1011631]
+	Ordinal0 [0x0014133B+1053499]
+	Ordinal0 [0x001414A3+1053859]
+	Ordinal0 [0x001404D5+1049813]
+	BaseThreadInitThunk [0x7720173E+18]
+	LdrInitializeThunk [0x77A6AEA1+652]
+	LdrInitializeThunk [0x77A6AE4D+568]
+	(No symbol) [0x00000000]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'ADMIN', ip: '192.168.0.115', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x001A1B23+1448739]
+	Ordinal0 [0x00125A11+940561]
+	Ordinal0 [0x000B2293+467603]
+	Ordinal0 [0x0004F27E+62078]
+	Ordinal0 [0x0004BBBD+48061]
+	Ordinal0 [0x00068D19+167193]
+	Ordinal0 [0x000688ED+166125]
+	Ordinal0 [0x00066FFB+159739]
+	Ordinal0 [0x000509F6+68086]
+	Ordinal0 [0x00051990+72080]
+	Ordinal0 [0x00051929+71977]
+	GetHandleVerifier [0x002E2E4C+1172140]
+	GetHandleVerifier [0x0023FE35+504469]
+	GetHandleVerifier [0x0023FBD0+503856]
+	Ordinal0 [0x001AC9A8+1493416]
+	GetHandleVerifier [0x0024060A+506474]
+	Ordinal0 [0x00137136+1012022]
+	Ordinal0 [0x00136FAF+1011631]
+	Ordinal0 [0x0014133B+1053499]
+	Ordinal0 [0x001414A3+1053859]
+	Ordinal0 [0x001404D5+1049813]
+	BaseThreadInitThunk [0x7720173E+18]
+	LdrInitializeThunk [0x77A6AEA1+652]
+	LdrInitializeThunk [0x77A6AE4D+568]
+	(No symbol) [0x00000000]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.demokart.utils.BaseClass.initialize(BaseClass.java:27)
+	at com.demokart.tests.LoginPageTest.openApp(LoginPageTest.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="SKIP" signature="verifyLandPageTitle()[pri:0, instance:com.demokart.tests.LoginPageTest@bf9759]" name="verifyLandPageTitle" duration-ms="4" started-at="2019-09-29T05:43:48Z" finished-at="2019-09-29T05:43:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLandPageTitle -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.demokart.tests.LoginPageTest@bf9759]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-09-29T05:43:48Z" finished-at="2019-09-29T05:43:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="openApp()[pri:0, instance:com.demokart.tests.LoginPageTest@bf9759]" name="openApp" is-config="true" duration-ms="0" started-at="2019-09-29T05:43:48Z" finished-at="2019-09-29T05:43:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="SKIP" signature="verifyLogin()[pri:0, instance:com.demokart.tests.LoginPageTest@bf9759]" name="verifyLogin" duration-ms="3" started-at="2019-09-29T05:43:48Z" finished-at="2019-09-29T05:43:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.demokart.tests.LoginPageTest@bf9759]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-09-29T05:43:48Z" finished-at="2019-09-29T05:43:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demokart.tests.LoginPageTest -->
+      <class name="com.demokart.tests.CartPageTest">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.demokart.tests.CartPageTest@153f17c]" name="openApp" is-config="true" duration-ms="20142" started-at="2019-09-29T05:44:33Z" finished-at="2019-09-29T05:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="verifyTotalPriceOfkartProducts()[pri:0, instance:com.demokart.tests.CartPageTest@153f17c]" name="verifyTotalPriceOfkartProducts" duration-ms="35370" started-at="2019-09-29T05:44:53Z" finished-at="2019-09-29T05:45:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalPriceOfkartProducts -->
+      </class> <!-- com.demokart.tests.CartPageTest -->
+      <class name="com.demokart.tests.HomePageTest">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.demokart.tests.HomePageTest@1341870]" name="openApp" is-config="true" duration-ms="14713" started-at="2019-09-29T05:43:48Z" finished-at="2019-09-29T05:44:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="addProductToKartAndVerify()[pri:0, instance:com.demokart.tests.HomePageTest@1341870]" name="addProductToKartAndVerify" duration-ms="29588" started-at="2019-09-29T05:44:03Z" finished-at="2019-09-29T05:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToKartAndVerify -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demokart.tests.HomePageTest@1341870]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-09-29T05:44:33Z" finished-at="2019-09-29T05:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demokart.tests.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
